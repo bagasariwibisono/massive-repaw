@@ -1,0 +1,127 @@
+:root {
+  --maincolor : #F8D571;
+  --secondaryColor : #F29762;
+  /* --acsentColor :*/
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: var(--maincolor);
+  }
+
+  .montserrat{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+.container-register{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  max-height: 700px;
+  max-width: 800px;
+  background:  #fff;
+  border-radius: 15px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* .register{
+  width: 500%;
+
+} */
+
+.h2{
+  font-weight: 400px;
+  font-size: 40px;
+}
+
+form input{
+  font-weight: 10px;
+  font-style: normal;
+  font-size: 10px;
+  padding: 20px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  width: 100px;
+ 
+}
+
+.custom-button {
+  background-color: var(--secondaryColor);
+  color: #fff;
+  width: 380px;
+  height: 40px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  width: 50%;
+}
+
+.separator::before,
+   
+.separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #000;
+  margin: 0 10px;
+}
+
+.btn-facebook {
+  font-size: 1px;
+  border-radius: 30px;
+  background-color: #3b5998;
+  color: white;
+}
+
+.btn-google {
+  border-radius: 30px;
+  background-color: #fff;
+  color: black;
+}
+
+.btn-facebook:hover {
+  background-color: #314e85;
+}
+
+.btn-google:hover {
+  background-color: #fff;
+}
+
+.btn-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-icon img {
+  margin-right: 1px;
+}
+
+.btn-lg {
+  padding: 5px 30px;
+  font-size: 1.25rem;
+}
+
+.btn-spacing {
+  margin-right: 10px; 
+}
+
+.btn-text-large {
+  font-size: 15px; /* Atur ukuran teks sesuai kebutuhan */
+}
+
+  
+
+
+  

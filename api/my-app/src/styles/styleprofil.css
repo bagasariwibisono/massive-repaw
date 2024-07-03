@@ -1,0 +1,66 @@
+:root {
+    --color-primary: #32A5BB;
+    --color-secondary: #F8D571;
+    --color-tertiary: #F29762;
+  }
+  
+  .body-profil{
+    font-family: "Montserrat", sans-serif;
+    background-color: #fff;
+  }
+
+  .container-profil{
+    margin-top: 40px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .btn-profil{
+    border-radius: 20px;
+    width: 120px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    background-color: var(--color-primary);
+    color: #fff;
+  }
+
+  .list-group-item {
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  .list-group-item-danger {
+    color: red;
+    margin-top: 50px;
+  }
+
+  .list-profil{
+    margin-top: 20px;
+  }
+
+  .profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+.profile-header img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+.profile-header h2 {
+    margin: 0;
+}
+.profile-header .edit-btn {
+    margin-left: auto;
+}
+.info-section {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}

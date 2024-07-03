@@ -1,0 +1,112 @@
+:root {
+    --maincolor: #F8D571;
+    --secondaryColor: #F29762;
+    --acsentColor: #32A5BB;
+  }
+  
+  .body-adopsi {
+    font-family: "Montserrat", sans-serif;
+    background-color: #fff;
+  }
+  
+  .navbar-nav .nav-link {
+    margin-left: 20px;
+    margin-right: 20px; /* Adjust the margin as needed */
+  }
+  
+  .adopsi{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    padding-right: 20px;
+    border-radius: 15px;
+    border: none;
+  }
+
+  .btn-adopsi {
+    font-size: 15px;
+    color: #fff;
+    background-color: var(--acsentColor);
+    border-radius: 30px;
+    height: 40px; 
+  }
+  .form-select{
+    font-size: 15px;
+    color: black;
+    border-radius: 30px;
+    height: 40px; 
+    margin-bottom: 20px;
+    width: "500px"
+  }
+  
+  .card-adopsi {
+    transition: transform 0.3s;
+    border-radius: 20px;
+    margin-top: 1px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    height: 350px;
+  }
+  
+  .adopsi-links {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+  
+  .adopsi-links a {
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  .card-adopsi:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card-title {
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    color: var(--acsentColor);
+  }
+  
+  .card-text {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .card-btn {
+    border-radius: 20px;
+    width: 200px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    background-color: var(--secondaryColor);
+    color: #fff;
+  }
+  
+  .card-text-adopsi p {
+    margin-bottom: 4px;
+  }
+  
+  .custom-nav {
+    justify-content: center;
+  }
+  
+  .pagination {
+    color: black;
+  }
+  
+  .pagination .page-link {
+    border: none;
+    color: black; /* Warna biru untuk panah dan nomor */
+  }
+  
+  .pagination .page-link:hover {
+    color: #007bff; /* Warna biru muda pada saat hover */
+  }
+  
+  .pagination .active .page-link {
+    background-color: #00a3c4; /* Warna biru untuk halaman aktif */
+    border-color: #00a3c4;
+    color: white; /* Warna teks putih untuk halaman aktif */
+  }
+  

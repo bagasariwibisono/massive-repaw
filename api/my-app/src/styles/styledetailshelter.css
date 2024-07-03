@@ -1,0 +1,86 @@
+:root {
+    --color-primary: #32A5BB;
+    --color-secondary: #F8D571;
+    --color-tertiary: #F29762;
+}
+
+.body-details{
+    font-family: "Montserrat", sans-serif;
+    background-color: #fff;
+}
+
+.container-details{
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container-details h1{
+    color: var(--color-primary);
+}
+
+.btn-lokasis{
+    border-radius: 8px;
+    width: 220px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    background-color: var(--color-primary);
+    color: #fff;
+}
+
+.btn-hubungis{
+    border-radius: 8px;
+    width: 220px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    background-color: var(--color-tertiary);
+    color: #fff;
+}
+
+.btn-outline-secondary {
+    color: #fff;
+    border-color: var(--color-primary);
+    background-color: var(--color-primary);
+    padding: 15px 20px;
+}
+
+.content-details{
+    flex-direction: column;
+} 
+.content-details h1{
+    color: var(--color-primary);
+    padding-top: 80px;
+    text-align: center;
+}
+
+.card-content-details{
+    width: 320px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+
+}
+.card-img-top {
+    height: 220px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.card-body {
+    height: 150px;
+} 
+.icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5rem;
+}
+.location {
+    display: flex;
+    
+}
+.location i {
+    margin-right: 5px;
+}

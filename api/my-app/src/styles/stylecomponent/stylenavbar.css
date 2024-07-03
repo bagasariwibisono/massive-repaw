@@ -1,0 +1,87 @@
+:root {
+  --container-width: 1240px;
+  --container-margin-x: 2rem;
+  --color-primary: #32a5bb;
+  --color-secondary: #f8d571;
+  --color-tertiary: #f29762;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #fdfdfd;
+  box-shadow: 0 4px 4px 0 #00000025;
+  position: relative;
+}
+
+.header-wrap {
+  width: var(--container-width);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 var(--container-margin-x);
+  padding: 1rem 0;
+  gap: 2rem;
+}
+
+.header-logo {
+  height: 2.5rem;
+}
+
+.header-logo-img {
+  height: 100%;
+}
+
+.header-action {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  gap: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.header-user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.header-user-img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.header-user-label {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.header-user i {
+  color: var(--color-primary);
+}
